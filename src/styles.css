@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #312e81;
+}
+input {
+  padding: 1rem;
+  font-size: 16px;
+  border-radius: 0.2rem solid #e68282;
+  margin: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  -ms-text-autospace: 1rem;
+  display: flex;
+  background-image: linear-gradient(to bottom right, #e5e7eb, #374151);
+}
+.container img {
+  width: 80%;
+  height: 90%;
+  cursor: pointer;
+}
+.container img:hover {
+  transform: scale(2.05);
+}
+.conatiner-text {
+  color: rgb(236, 232, 232);
+  font-size: 18px;
+  margin: 2rem;
+  padding: 0.2rem 0.1rem;
+}
