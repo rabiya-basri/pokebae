@@ -29,6 +29,9 @@ const App = () => {
   };
   return (
     <div className="App">
+      <nav className="navbar-container">
+        <header>POKEBAE</header>
+      </nav>
       <form onSubmit={handelSubmit}>
         <div>
           <input

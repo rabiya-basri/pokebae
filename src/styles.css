@@ -1,7 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 .App {
   font-family: sans-serif;
   text-align: center;
-  background-color: #312e81;
+}
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2020/05/04/11/04/pokeball-5128709_960_720.jpg);
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.navbar-container {
+  background-color: red;
+  padding: 1rem;
+  width: 100% auto;
+  border-bottom-left-radius: 2rem;
+  color: #f9fafb;
+  font-family: "Reggae One", cursive;
+  font-size: 18px;
 }
 input {
   padding: 1rem;
@@ -12,21 +28,23 @@ input {
   margin-right: auto;
 }
 .container {
-  -ms-text-autospace: 1rem;
+  width: 45%;
+  height: 45%;
   display: flex;
-  background-image: linear-gradient(to bottom right, #e5e7eb, #374151);
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(236, 232, 232);
+  font-family: "Reggae One", cursive;
+  font-size: 14px;
+  justify-content: left;
 }
 .container img {
   width: 80%;
   height: 90%;
   cursor: pointer;
+  -webkit-filter: contrast(2.25);
+  filter: contrast(2.25);
 }
 .container img:hover {
-  transform: scale(2.05);
-}
-.conatiner-text {
-  color: rgb(236, 232, 232);
-  font-size: 18px;
-  margin: 2rem;
-  padding: 0.2rem 0.1rem;
+  transform: scale(1.05);
 }
