@@ -43,7 +43,7 @@ input {
 }
 
 .container img:hover {
-  transform: scale(1.05);
+  transform: scale(2.05);
 }
 .conatiner-text p {
   color: rgb(236, 232, 232);
@@ -52,4 +52,18 @@ input {
   display: block;
   text-align: justify; /* For Edge */
   text-align-last: left;
+}
+.footer-wrapper {
+  background-color: red;
+  width: 100% auto;
+  padding: 1rem 0rem 3rem;
+  color: white;
+  font-family: "Reggae One", cursive;
+  font-size: 18px;
+  border-top-right-radius: 3rem;
+}
+.footer-wrapper img {
+  width: 15%;
+  height: 10%;
+  margin: 0.2rem 0.3rem 0.2rem 0.1rem;
 }

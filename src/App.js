@@ -54,6 +54,21 @@ const App = () => {
           </div>
         );
       })}
+      <footer className="footer-wrapper">
+        <h2>Connect me</h2>
+        <a href="https://www.linkedin.com/in/rabiya-basri-55b368186/">
+          <img
+            alt="linkedin"
+            src="https://cdn.pixabay.com/photo/2015/07/13/07/33/icons-842861_960_720.png"
+          />
+        </a>
+        <a href="https://github.com/rabiya-basri">
+          <img
+            alt="github"
+            src="https://cdn.pixabay.com/photo/2017/08/05/11/24/logo-2582757_960_720.png"
+          />
+        </a>
+      </footer>
     </div>
   );
 };
