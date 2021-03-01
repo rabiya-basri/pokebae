@@ -48,7 +48,7 @@ const App = () => {
             <div className="conatiner-text">
               <p>Type: {pokemontype}</p>
               <p>Height: {Math.round(data.height * 3.9)}</p>
-              <p>Weight: {Math.round(data.weight / 4.3)} lbs</p>
+              <p>Weight:{Math.round(data.weight / 4.3)} lbs</p>
               <p>Number of battels: {data.game_indices.length}</p>
             </div>
           </div>
