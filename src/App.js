@@ -49,7 +49,7 @@ const App = () => {
               <p>Type: {pokemontype}</p>
               <p>Height: {Math.round(data.height * 3.9)}</p>
               <p>Weight:{Math.round(data.weight / 4.3)} lbs</p>
-              <p>Number of battels: {data.game_indices.length}</p>
+              <p>Battels: {data.game_indices.length}</p>
             </div>
           </div>
         );
